@@ -69,3 +69,9 @@ Assim como o **printf** a função **scanf** recebe dois parâmetros, a máscara
 
 **Explicação de forma resumida:**
     O compilador faz o processo de tradução do nosso programa.c que é escrito numa **linguagem de alto nível** (capaz de seres humanos compreenderem) e passa esse programa para **linguagem de máquina** (linguagem de baixo nível) que é a linguagem que o computador é capaz de entender, logo após esse processo de compilação é gerado um **executável** que é o que nos permite rodar nosso programa.
+
+## Operadores Lógicos
+- Operador And: `&&`
+- Operador Or: `||`
+- Operador de comparação: `==`
+- Operador de atribuição: `=`
