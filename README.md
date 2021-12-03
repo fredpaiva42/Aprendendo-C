@@ -5,14 +5,18 @@ Em C para usarmos as funções de entrada e saída é necessário importar a bib
 
 ## Observações
 - Obs 1: Caso tenha algum erro de sintaxe o programa não compila e o compilador apresenta o erro.
-- 
+
 - Obs 2: A diferença entre a **linguagem tipada** e não **tipada** é em uma nós precisamos fazer a declaração do tipo.
-- 
+
 - Obs 3: Numa **linguagem estática** o tipo é inferido na declaração da variável e checado pelo compilador, já numa **linguagem dinâmica** o tipo é inferido pelo valor que for atribuído àquela variável e checado no tempo de execução.
 - 
 - Obs 4: **Linguagens fortemente tipadas**, apresentam erros ou exceções quando tentamos fazer operações entre valores de tipos diferentes, só é possível fazer essas operações através de conversão de valores. Já as **linguagens de tipagem fraca** não é necessário fazer conversões e se pode cambiar entre os tipos livremente.
-- 
+
 - Obs 5: Em C o **0** é equivalente a **Falso** e **1** a **Verdadeiro**.
+
+- Obs 6: Tudo que começa com **#** em C é chamado de **diretiva**.
+
+- Obs 7: **Continue** ele pula direto para a próxima iteração.
 
 ## Importação
 Importações em C devem ser feitas da seguinte maneira:
@@ -92,3 +96,17 @@ for:
         //bloco de código a ser repetido    
     }
 ```
+while:
+````C
+    while(){
+    
+    }
+````
+
+## Declaração de constantes
+Deve ser declarada do lado de fora da main. E é uma conveção que as constantes sejam definidad todas em maisculas.
+
+
+````c
+    #define C 15
+````
