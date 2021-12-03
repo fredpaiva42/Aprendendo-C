@@ -5,9 +5,14 @@ Em C para usarmos as funções de entrada e saída é necessário importar a bib
 
 ## Observações
 - Obs 1: Caso tenha algum erro de sintaxe o programa não compila e o compilador apresenta o erro.
+- 
 - Obs 2: A diferença entre a **linguagem tipada** e não **tipada** é em uma nós precisamos fazer a declaração do tipo.
+- 
 - Obs 3: Numa **linguagem estática** o tipo é inferido na declaração da variável e checado pelo compilador, já numa **linguagem dinâmica** o tipo é inferido pelo valor que for atribuído àquela variável e checado no tempo de execução.
+- 
 - Obs 4: **Linguagens fortemente tipadas**, apresentam erros ou exceções quando tentamos fazer operações entre valores de tipos diferentes, só é possível fazer essas operações através de conversão de valores. Já as **linguagens de tipagem fraca** não é necessário fazer conversões e se pode cambiar entre os tipos livremente.
+- 
+- Obs 5: Em C o **0** é equivalente a **Falso** e **1** a **Verdadeiro**.
 
 ## Importação
 Importações em C devem ser feitas da seguinte maneira:
@@ -75,3 +80,15 @@ Assim como o **printf** a função **scanf** recebe dois parâmetros, a máscara
 - Operador Or: `||`
 - Operador de comparação: `==`
 - Operador de atribuição: `=`
+
+## Escopo
+Uma variável só é visível no escopo em que foi declarada, ou nos escopos interno ao escopo no qual ela foi declarada.
+
+## Laços de repetição em C
+
+for:
+```C
+    for (i=0; i < 10; i++){
+        //bloco de código a ser repetido    
+    }
+```
