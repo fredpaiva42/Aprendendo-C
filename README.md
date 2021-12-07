@@ -27,13 +27,13 @@ Importações em C devem ser feitas da seguinte maneira:
 - **stdio.h** é a biblioteca de entrada e saída do C.
 
 ## Função Main
-Todo programa em C deve possuir uma função principal chamada **main**, ela é uma função do tipo inteiro, então ela vai ser sempre retornar um número, e ela não tem parâmetros.
+Todo programa em C deve possuir uma função principal chamada **main**, ela é uma função do tipo inteiro, então ela vai ser sempre retornar um número, e como ela é uma função especial, ela não tem parâmetros, por isso o **void** dentro dos parênteses.
 
 A função **main** é declarada da seguinte maneira:
 ```C
     # include <stdio.h>
     
-    int main(void) {
+    int main(void) { // representa o cabeçalho da função.
         
         return 0;
     }
@@ -67,6 +67,7 @@ C é uma linguagem de tipagem estática, então nós precisamos dizer o seu tipo
 
 ## Função scanf
 Assim como o **printf** a função **scanf** recebe dois parâmetros, a máscara indicando o tipo do dado que vai ser recebido e `&nomeVariavel` que atribui o dado recebido pelo teclado a variável que vem logo após o **&**.
+- o **&** indica o endereço de memória da variável como o espaço da memória no qual será armazendo o valor capturado.
 ```C
     int num;
 
